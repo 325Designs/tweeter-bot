@@ -6,11 +6,11 @@ Simple Python script that will retweet all Tweets containing your search term. T
 
 ### Dependencies
 - Tweepy
-  '''pip install tweepy'''
-or alternativately ```pip install -r requirements.txt```  
+  'pip install tweepy'
+or alternativately `pip install -r requirements.txt`
   
 ### Creating Twitter App
-* '''Twitter Developers Console '''[Create App](https://apps.twitter.com/)
+* Twitter Developers Console [Create App](https://apps.twitter.com/)
 * App Secrets (Modify in creds.py file)
   - Consumer Key (API Key)
   - Consumer Secret (API Secret)
