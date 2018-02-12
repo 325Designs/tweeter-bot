@@ -7,10 +7,10 @@ Simple Python script that will retweet all Tweets containing your search term. T
 ### Dependencies
 - Tweepy
   '''pip install tweepy'''
-  ### or alternativately ```pip install -r requirements.txt```  
+or alternativately ```pip install -r requirements.txt```  
   
 ### Creating Twitter App
-* [Create App](https://apps.twitter.com/)
+* '''Twitter Developers Console '''[Create App](https://apps.twitter.com/)
 * App Secrets (Modify in creds.py file)
   - Consumer Key (API Key)
   - Consumer Secret (API Secret)
@@ -22,5 +22,5 @@ Simple Python script that will retweet all Tweets containing your search term. T
 * Define the number of Retweets at a time (This avoids overloading -Limit is 180 RT/ 15 mins)
 * Add your Twitter app credentials in the config file
 * (Tune some other options if you like)
-* $ python retweet.py
+* $ python tweeter.py
 * Add this call to your crontab(unix)/task scheduler(windows) (or something similar) to retweet all new tweets regularly
